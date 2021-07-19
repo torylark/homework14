@@ -1,0 +1,19 @@
+const a = prompt('Введите число ', '');
+
+function getEnding( num) {
+    const num2 = num % 10;
+    if (num == 11) {
+        alert('Вик');
+    } else if (num2 == 1){
+        alert('Вика');
+    }
+     else if (num2>1 && num2<5) {
+         alert('Вики'); 
+    } else {
+        alert('Вик');
+    }
+   
+}
+
+getEnding(a);
+*над второй пока думаю, но если получится еще раз отравлю *
